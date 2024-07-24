@@ -112,4 +112,6 @@ Follow the design guidelines provided, including color schemes, fonts, and other
 
 ---
 
+**Note**: If any required data or details are missing, please mock the data as needed to complete the task.
+
 Thank you for participating in the ElCoach-Tech challenge. We look forward to reviewing your work!
