@@ -13,7 +13,9 @@ Your task is to develop a set of screens for an online grocery shopping applicat
 ### Provided Materials:
 
 - **Design Mockups**: [View the design mockups on Figma](https://www.figma.com/design/IMN7twbII4yBaWFOnRyAKP/Simple-Grocery-app?node-id=0-1).
-- **API Endpoints**: For retrieving product and cart information.
+- **API Endpoints**:
+  - **Products**: [https://run.mocky.io/v3/78b00e72-00c0-47b5-84f3-de42b02336a7](https://run.mocky.io/v3/78b00e72-00c0-47b5-84f3-de42b02336a7)
+  - **Categories**: [https://run.mocky.io/v3/c893c10f-79a7-4e25-bf76-8aca2fe6dabb](https://run.mocky.io/v3/c893c10f-79a7-4e25-bf76-8aca2fe6dabb)
 
 ### Design Guidelines
 
@@ -30,7 +32,7 @@ Follow the design guidelines provided, including color schemes, fonts, and other
 ### 2. Home Screen
 
 - **UI**:
-  - Implement the splash screen according to the provided design.
+  - Implement the home screen according to the provided design.
 - **Functionality**:
   - **Search Component**: Implement functionality to navigate to the Search screen when the search component in the header or the search icon in the bottom tab is pressed.
   - **Cart Icon**: Implement functionality to navigate to the Cart screen when the cart icon is pressed.
@@ -38,14 +40,14 @@ Follow the design guidelines provided, including color schemes, fonts, and other
 ### 3. Search Screen
 
 - **UI**:
-  - Implement the splash screen according to the provided design.
+  - Implement the search screen according to the provided design.
 - **Functionality**:
   - **Tab Management**: Render and manage products based on the selected tab in the UI. Ensure that the displayed products are filtered or updated according to the active tab.
 
 ### 4. Cart Screen
 
 - **UI**:
-  - Implement the splash screen according to the provided design.
+  - Implement the cart screen according to the provided design.
 - **Functionality**:
   - **Increase/Decrease/Delete Items**: Allow users to increase or decrease the quantity of items and delete items from the cart.
   - **Dynamic Total Cost**: Display the total cost dynamically based on the items in the cart.
@@ -63,7 +65,7 @@ Follow the design guidelines provided, including color schemes, fonts, and other
 
 3. **Offline Storage**:
 
-   - Implement functionality to save user card information offline using suitable library such as Redux.
+   - Implement functionality to save user cart information offline using a suitable library such as Redux.
 
 4. **Code Quality**:
 
